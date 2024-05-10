@@ -1,2 +1,2 @@
-Move configuration.nix to /etc/nixos/ n\
+Move configuration.nix to /etc/nixos/ \
 Rename xprofile to .xprofile
