@@ -1,0 +1,2 @@
+~/.config/autostart/bar.sh &
+nitrogen --restore &
