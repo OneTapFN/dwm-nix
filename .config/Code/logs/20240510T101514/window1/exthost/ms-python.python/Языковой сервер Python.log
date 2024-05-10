@@ -1,0 +1,30 @@
+2024-05-10 10:15:44.029 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-05-10 10:15:49.823 [info] [Info  - 10:15:49 AM] (1533) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-05-10 10:15:49.846 [info] [Info  - 10:15:49 AM] (1533) Server root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 10:15:49.847 [info] [Info  - 10:15:49 AM] (1533) Starting service instance "MyPythonProjects"
+2024-05-10 10:15:50.476 [info] [Info  - 10:15:50 AM] (1533) Setting pythonPath for service "MyPythonProjects": "/run/current-system/sw/bin/python"
+2024-05-10 10:15:50.484 [info] [Info  - 10:15:50 AM] (1533) Setting environmentName for service "MyPythonProjects": "3.11.8 (глобальная)"
+2024-05-10 10:15:50.818 [info] [Info  - 10:15:50 AM] (1533) Assuming Python version 3.11
+2024-05-10 10:15:52.320 [info] [Info  - 10:15:52 AM] (1533) Found 26 source files
+2024-05-10 10:15:56.221 [info] [Info  - 10:15:56 AM] (1533) Background analysis(1) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 10:15:56.229 [info] [Info  - 10:15:56 AM] (1533) Background analysis(1) started
+2024-05-10 10:15:58.673 [info] [Info  - 10:15:58 AM] (1533) Indexer background runner(2) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 10:15:58.676 [info] [Info  - 10:15:58 AM] (1533) Indexing(2) started
+2024-05-10 10:16:05.108 [info] [Info  - 10:16:05 AM] (1533) [IDX(2)] Long operation: scan packages file:///home/onetap/Documents/MyPythonProjects (6390ms)
+2024-05-10 10:16:05.109 [info] [Info  - 10:16:05 AM] (1533) scanned(2) 13 files over 1 exec env
+2024-05-10 10:16:10.055 [info] [Info  - 10:16:10 AM] (1533) [IDX(2)] Long operation: indexing: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2564ms)
+2024-05-10 10:16:10.296 [info] [Info  - 10:16:10 AM] (1533) [IDX(2)] Long operation: index execution environment file:///home/onetap/Documents/MyPythonProjects (2824ms)
+2024-05-10 10:16:10.386 [info] [Info  - 10:16:10 AM] (1533) [IDX(2)] Long operation: index packages file:///home/onetap/Documents/MyPythonProjects (2921ms)
+2024-05-10 10:16:10.395 [info] [Info  - 10:16:10 AM] (1533) indexed(2) 2 files over 1 exec env
+2024-05-10 10:16:10.587 [info] [Info  - 10:16:10 AM] (1533) Indexing finished(2).
+2024-05-10 10:45:27.919 [info] [Info  - 10:45:27 AM] (1533) Setting pythonPath for service "MyPythonProjects": "/run/current-system/sw/bin/python"
+2024-05-10 10:45:27.924 [info] [Info  - 10:45:27 AM] (1533) Setting environmentName for service "MyPythonProjects": "3.11.8 (глобальная)"
+2024-05-10 10:45:28.315 [info] [Info  - 10:45:28 AM] (1533) Assuming Python version 3.11
+2024-05-10 10:45:28.750 [info] [Info  - 10:45:28 AM] (1533) Found 26 source files
+2024-05-10 10:45:34.256 [info] [Info  - 10:45:34 AM] (1533) [BG(1)] Long operation: checking: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (2667ms)
+2024-05-10 10:45:34.821 [info] [Info  - 10:45:34 AM] (1533) [BG(1)] Long operation: analyzing: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (4650ms)
+2024-05-10 10:45:35.811 [info] [Info  - 10:45:35 AM] (1533) Indexer background runner(3) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 10:45:35.814 [info] [Info  - 10:45:35 AM] (1533) Indexing(3) started
+2024-05-10 10:45:38.490 [info] [Info  - 10:45:38 AM] (1533) scanned(3) 13 files over 1 exec env
+2024-05-10 10:45:40.910 [info] [Info  - 10:45:40 AM] (1533) indexed(3) 2 files over 1 exec env
+2024-05-10 10:45:41.077 [info] [Info  - 10:45:41 AM] (1533) Indexing finished(3).

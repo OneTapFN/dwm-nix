@@ -1,0 +1,172 @@
+2024-05-10 09:58:57.287 [info] Уровень ведения журнала: Info
+2024-05-10 09:58:57.287 [info] Проверка найденного Git в: "git"
+2024-05-10 09:58:57.287 [info] Используется Git "2.42.0" из "git"
+2024-05-10 09:58:57.287 [info] > git rev-parse --show-toplevel [48ms]
+2024-05-10 09:58:57.349 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-05-10 09:58:57.491 [info] Open repository: /home/onetap/Documents/dwm-nix
+2024-05-10 09:58:57.543 [info] > git config --get commit.template [22ms]
+2024-05-10 09:58:57.569 [info] > git rev-parse --show-toplevel [31ms]
+2024-05-10 09:58:57.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-05-10 09:58:57.622 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:58:57.632 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2024-05-10 09:58:57.674 [info] Open repository: /home/onetap/Documents/dwm-nix/dwm-flexipatch
+2024-05-10 09:58:57.721 [info] > git rev-parse refs/remotes/origin/main [99ms]
+2024-05-10 09:58:57.745 [info] > git rev-parse --show-toplevel [26ms]
+2024-05-10 09:58:57.748 [info] > git config --get commit.template [46ms]
+2024-05-10 09:58:57.826 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2024-05-10 09:58:57.947 [info] Open repository: /home/onetap/Documents/dwm-nix/st-flexipatch
+2024-05-10 09:58:57.986 [info] > git status -z -uall [246ms]
+2024-05-10 09:58:58.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [222ms]
+2024-05-10 09:58:58.084 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/dwm-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 09:58:58.086 [info] > git config --get commit.template [105ms]
+2024-05-10 09:58:58.088 [info] > git config --get commit.template [25ms]
+2024-05-10 09:58:58.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+2024-05-10 09:58:58.170 [info] > git rev-parse refs/remotes/origin/master [87ms]
+2024-05-10 09:58:58.227 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/st-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 09:58:58.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [62ms]
+2024-05-10 09:58:58.276 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:58:58.279 [info] > git status -z -uall [90ms]
+2024-05-10 09:58:58.314 [info] > git rev-parse refs/remotes/origin/master [87ms]
+2024-05-10 09:58:58.402 [info] > git rev-parse refs/remotes/origin/main [126ms]
+2024-05-10 09:58:58.472 [info] > git status -z -uall [104ms]
+2024-05-10 09:58:58.477 [info] > git config --get commit.template [73ms]
+2024-05-10 09:58:58.738 [info] > git status -z -uall [274ms]
+2024-05-10 09:58:58.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [69ms]
+2024-05-10 09:58:58.810 [info] > git config --get commit.template [144ms]
+2024-05-10 09:58:58.945 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/dwm-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 09:58:59.060 [info] > git rev-parse refs/remotes/origin/master [115ms]
+2024-05-10 09:58:59.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [205ms]
+2024-05-10 09:58:59.158 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/st-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 09:58:59.201 [info] > git status -z -uall [100ms]
+2024-05-10 09:58:59.201 [info] > git rev-parse refs/remotes/origin/master [43ms]
+2024-05-10 09:58:59.353 [info] > git status -z -uall [62ms]
+2024-05-10 09:59:00.473 [info] > git check-ignore -v -z --stdin [107ms]
+2024-05-10 09:59:00.480 [info] > git check-ignore -v -z --stdin [60ms]
+2024-05-10 09:59:00.494 [info] > git check-ignore -v -z --stdin [30ms]
+2024-05-10 09:59:04.385 [info] > git merge-base refs/heads/master refs/remotes/origin/master [227ms]
+2024-05-10 09:59:04.463 [info] > git merge-base refs/heads/master refs/remotes/origin/master [367ms]
+2024-05-10 09:59:04.520 [info] > git merge-base refs/heads/main refs/remotes/origin/main [478ms]
+2024-05-10 09:59:04.626 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [33ms]
+2024-05-10 09:59:04.630 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [110ms]
+2024-05-10 09:59:04.632 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [170ms]
+2024-05-10 09:59:06.504 [info] > git show --textconv :configuration.nix [34ms]
+2024-05-10 09:59:06.517 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [17ms]
+2024-05-10 09:59:06.554 [info] > git cat-file -s 6baff57e0698b461836aa7b775ffd404fb986706 [17ms]
+2024-05-10 09:59:07.087 [info] > git check-ignore -v -z --stdin [39ms]
+2024-05-10 09:59:07.137 [info] > git check-ignore -v -z --stdin [60ms]
+2024-05-10 09:59:20.877 [info] > git push origin main:main [2096ms]
+2024-05-10 09:59:20.877 [info] Everything up-to-date
+2024-05-10 09:59:20.923 [info] > git config --get commit.template [22ms]
+2024-05-10 09:59:20.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-05-10 09:59:20.943 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:59:20.950 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-05-10 09:59:21.010 [info] > git status -z -uall [43ms]
+2024-05-10 09:59:24.333 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [17ms]
+2024-05-10 09:59:24.333 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-10 09:59:24.367 [info] > git config --get-all user.name [7ms]
+2024-05-10 09:59:24.433 [info] > git config --get commit.template [40ms]
+2024-05-10 09:59:24.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-05-10 09:59:24.467 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:59:24.478 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-05-10 09:59:24.558 [info] > git status -z -uall [55ms]
+2024-05-10 10:00:21.950 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [23ms]
+2024-05-10 10:00:21.975 [info] > git config --get commit.template [8ms]
+2024-05-10 10:00:22.057 [info] > git config --get commit.template [26ms]
+2024-05-10 10:00:22.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-05-10 10:00:22.089 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 10:00:22.098 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-05-10 10:00:22.187 [info] > git status -z -uall [73ms]
+2024-05-10 10:00:22.762 [info] > git config --get commit.template [80ms]
+2024-05-10 10:00:22.775 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-05-10 10:00:22.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [81ms]
+2024-05-10 10:00:22.842 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 10:00:22.845 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [34ms]
+2024-05-10 10:00:22.859 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2024-05-10 10:00:22.994 [info] > git status -z -uall [91ms]
+2024-05-10 10:00:23.574 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [16ms]
+2024-05-10 10:00:23.625 [info] > git cat-file -s 6baff57e0698b461836aa7b775ffd404fb986706 [17ms]
+2024-05-10 10:00:23.702 [info] > git show --textconv :configuration.nix [9ms]
+2024-05-10 10:00:25.031 [info] > git add -A -- . [57ms]
+2024-05-10 10:00:25.131 [info] > git -c user.useConfigOnly=true commit --quiet [77ms]
+2024-05-10 10:00:25.186 [info] > git config --get-all user.name [13ms]
+2024-05-10 10:00:25.233 [info] > git config --get-all user.email [24ms]
+2024-05-10 10:00:25.308 [info] > git config --get commit.template [46ms]
+2024-05-10 10:00:25.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-05-10 10:00:25.392 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 10:00:25.406 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-05-10 10:00:25.480 [info] > git status -z -uall [52ms]
+2024-05-10 10:00:29.981 [info] > git config --get commit.template [23ms]
+2024-05-10 10:00:29.982 [info] > git config --get commit.template [38ms]
+2024-05-10 10:00:29.983 [info] > git config --get commit.template [54ms]
+2024-05-10 10:00:29.986 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [11ms]
+2024-05-10 10:00:30.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-05-10 10:00:30.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-05-10 10:00:30.079 [info] > git cat-file -s 6baff57e0698b461836aa7b775ffd404fb986706 [73ms]
+2024-05-10 10:00:30.099 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/dwm-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 10:00:30.117 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 10:00:30.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2024-05-10 10:00:30.138 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/st-flexipatch/.git/refs/remotes/origin/master'
+2024-05-10 10:00:30.143 [info] > git rev-parse refs/remotes/origin/master [44ms]
+2024-05-10 10:00:30.170 [info] > git rev-parse refs/remotes/origin/master [32ms]
+2024-05-10 10:00:30.197 [info] > git rev-parse refs/remotes/origin/main [79ms]
+2024-05-10 10:00:30.228 [info] > git status -z -uall [61ms]
+2024-05-10 10:00:30.229 [info] > git status -z -uall [33ms]
+2024-05-10 10:00:30.337 [info] > git status -z -uall [117ms]
+2024-05-10 10:00:30.359 [info] > git show --textconv :configuration.nix [29ms]
+2024-05-10 10:01:08.783 [info] Уровень ведения журнала: Info
+2024-05-10 10:01:08.783 [info] Проверка найденного Git в: "git"
+2024-05-10 10:01:08.783 [info] Используется Git "2.42.0" из "git"
+2024-05-10 10:01:35.032 [info] > git clone https://github.com/OneTapFN/MyPythonProjects.git /home/onetap/Documents/MyPythonProjects --progress [2632ms]
+2024-05-10 10:01:35.032 [info] Cloning into '/home/onetap/Documents/MyPythonProjects'...
+remote: Enumerating objects: 196, done.        
+remote: Counting objects:   0% (1/196)        remote: Counting objects:   1% (2/196)        remote: Counting objects:   2% (4/196)        remote: Counting objects:   3% (6/196)        remote: Counting objects:   4% (8/196)        remote: Counting objects:   5% (10/196)        remote: Counting objects:   6% (12/196)        remote: Counting objects:   7% (14/196)        remote: Counting objects:   8% (16/196)        remote: Counting objects:   9% (18/196)        remote: Counting objects:  10% (20/196)        remote: Counting objects:  11% (22/196)        remote: Counting objects:  12% (24/196)        remote: Counting objects:  13% (26/196)        remote: Counting objects:  14% (28/196)        remote: Counting objects:  15% (30/196)        remote: Counting objects:  16% (32/196)        remote: Counting objects:  17% (34/196)        remote: Counting objects:  18% (36/196)        remote: Counting objects:  19% (38/196)        remote: Counting objects:  20% (40/196)        remote: Counting objects:  21% (42/196)        remote: Counting objects:  22% (44/196)        remote: Counting objects:  23% (46/196)        remote: Counting objects:  24% (48/196)        remote: Counting objects:  25% (49/196)        remote: Counting objects:  26% (51/196)        remote: Counting objects:  27% (53/196)        remote: Counting objects:  28% (55/196)        remote: Counting objects:  29% (57/196)        remote: Counting objects:  30% (59/196)        remote: Counting objects:  31% (61/196)        remote: Counting objects:  32% (63/196)        remote: Counting objects:  33% (65/196)        remote: Counting objects:  34% (67/196)        remote: Counting objects:  35% (69/196)        remote: Counting objects:  36% (71/196)        remote: Counting objects:  37% (73/196)        remote: Counting objects:  38% (75/196)        remote: Counting objects:  39% (77/196)        remote: Counting objects:  40% (79/196)        remote: Counting objects:  41% (81/196)        remote: Counting objects:  42% (83/196)        remote: Counting objects:  43% (85/196)        remote: Counting objects:  44% (87/196)        remote: Counting objects:  45% (89/196)        remote: Counting objects:  46% (91/196)        remote: Counting objects:  47% (93/196)        remote: Counting objects:  48% (95/196)        remote: Counting objects:  49% (97/196)        remote: Counting objects:  50% (98/196)        remote: Counting objects:  51% (100/196)        remote: Counting objects:  52% (102/196)        remote: Counting objects:  53% (104/196)        remote: Counting objects:  54% (106/196)        remote: Counting objects:  55% (108/196)        remote: Counting objects:  56% (110/196)        remote: Counting objects:  57% (112/196)        remote: Counting objects:  58% (114/196)        remote: Counting objects:  59% (116/196)        remote: Counting objects:  60% (118/196)        remote: Counting objects:  61% (120/196)        remote: Counting objects:  62% (122/196)        remote: Counting objects:  63% (124/196)        remote: Counting objects:  64% (126/196)        remote: Counting objects:  65% (128/196)        remote: Counting objects:  66% (130/196)        remote: Counting objects:  67% (132/196)        remote: Counting objects:  68% (134/196)        remote: Counting objects:  69% (136/196)        remote: Counting objects:  70% (138/196)        remote: Counting objects:  71% (140/196)        remote: Counting objects:  72% (142/196)        remote: Counting objects:  73% (144/196)        remote: Counting objects:  74% (146/196)        remote: Counting objects:  75% (147/196)        remote: Counting objects:  76% (149/196)        remote: Counting objects:  77% (151/196)        remote: Counting objects:  78% (153/196)        remote: Counting objects:  79% (155/196)        remote: Counting objects:  80% (157/196)        remote: Counting objects:  81% (159/196)        remote: Counting objects:  82% (161/196)        remote: Counting objects:  83% (163/196)        remote: Counting objects:  84% (165/196)        remote: Counting objects:  85% (167/196)        remote: Counting objects:  86% (169/196)        remote: Counting objects:  87% (171/196)        remote: Counting objects:  88% (173/196)        remote: Counting objects:  89% (175/196)        remote: Counting objects:  90% (177/196)        remote: Counting objects:  91% (179/196)        remote: Counting objects:  92% (181/196)        remote: Counting objects:  93% (183/196)        remote: Counting objects:  94% (185/196)        remote: Counting objects:  95% (187/196)        remote: Counting objects:  96% (189/196)        remote: Counting objects:  97% (191/196)        remote: Counting objects:  98% (193/196)        remote: Counting objects:  99% (195/196)        remote: Counting objects: 100% (196/196)        remote: Counting objects: 100% (196/196), done.        
+remote: Compressing objects:   0% (1/128)        remote: Compressing objects:   1% (2/128)        remote: Compressing objects:   2% (3/128)        remote: Compressing objects:   3% (4/128)        remote: Compressing objects:   4% (6/128)        remote: Compressing objects:   5% (7/128)        remote: Compressing objects:   6% (8/128)        remote: Compressing objects:   7% (9/128)        remote: Compressing objects:   8% (11/128)        remote: Compressing objects:   9% (12/128)        remote: Compressing objects:  10% (13/128)        remote: Compressing objects:  11% (15/128)        remote: Compressing objects:  12% (16/128)        remote: Compressing objects:  13% (17/128)        remote: Compressing objects:  14% (18/128)        remote: Compressing objects:  15% (20/128)        remote: Compressing objects:  16% (21/128)        remote: Compressing objects:  17% (22/128)        remote: Compressing objects:  18% (24/128)        remote: Compressing objects:  19% (25/128)        remote: Compressing objects:  20% (26/128)        remote: Compressing objects:  21% (27/128)        remote: Compressing objects:  22% (29/128)        remote: Compressing objects:  23% (30/128)        remote: Compressing objects:  24% (31/128)        remote: Compressing objects:  25% (32/128)        remote: Compressing objects:  26% (34/128)        remote: Compressing objects:  27% (35/128)        remote: Compressing objects:  28% (36/128)        remote: Compressing objects:  29% (38/128)        remote: Compressing objects:  30% (39/128)        remote: Compressing objects:  31% (40/128)        remote: Compressing objects:  32% (41/128)        remote: Compressing objects:  33% (43/128)        remote: Compressing objects:  34% (44/128)        remote: Compressing objects:  35% (45/128)        remote: Compressing objects:  36% (47/128)        remote: Compressing objects:  37% (48/128)        remote: Compressing objects:  38% (49/128)        remote: Compressing objects:  39% (50/128)        remote: Compressing objects:  40% (52/128)        remote: Compressing objects:  41% (53/128)        remote: Compressing objects:  42% (54/128)        remote: Compressing objects:  43% (56/128)        remote: Compressing objects:  44% (57/128)        remote: Compressing objects:  45% (58/128)        remote: Compressing objects:  46% (59/128)        remote: Compressing objects:  47% (61/128)        remote: Compressing objects:  48% (62/128)        remote: Compressing objects:  49% (63/128)        remote: Compressing objects:  50% (64/128)        remote: Compressing objects:  51% (66/128)        remote: Compressing objects:  52% (67/128)        remote: Compressing objects:  53% (68/128)        remote: Compressing objects:  54% (70/128)        remote: Compressing objects:  55% (71/128)        remote: Compressing objects:  56% (72/128)        remote: Compressing objects:  57% (73/128)        remote: Compressing objects:  58% (75/128)        remote: Compressing objects:  59% (76/128)        remote: Compressing objects:  60% (77/128)        remote: Compressing objects:  61% (79/128)        remote: Compressing objects:  62% (80/128)        remote: Compressing objects:  63% (81/128)        remote: Compressing objects:  64% (82/128)        remote: Compressing objects:  65% (84/128)        remote: Compressing objects:  66% (85/128)        remote: Compressing objects:  67% (86/128)        remote: Compressing objects:  68% (88/128)        remote: Compressing objects:  69% (89/128)        remote: Compressing objects:  70% (90/128)        remote: Compressing objects:  71% (91/128)        remote: Compressing objects:  72% (93/128)        remote: Compressing objects:  73% (94/128)        remote: Compressing objects:  74% (95/128)        remote: Compressing objects:  75% (96/128)        remote: Compressing objects:  76% (98/128)        remote: Compressing objects:  77% (99/128)        remote: Compressing objects:  78% (100/128)        remote: Compressing objects:  79% (102/128)        remote: Compressing objects:  80% (103/128)        remote: Compressing objects:  81% (104/128)        remote: Compressing objects:  82% (105/128)        remote: Compressing objects:  83% (107/128)        remote: Compressing objects:  84% (108/128)        remote: Compressing objects:  85% (109/128)        remote: Compressing objects:  86% (111/128)        remote: Compressing objects:  87% (112/128)        remote: Compressing objects:  88% (113/128)        remote: Compressing objects:  89% (114/128)        remote: Compressing objects:  90% (116/128)        remote: Compressing objects:  91% (117/128)        remote: Compressing objects:  92% (118/128)        remote: Compressing objects:  93% (120/128)        remote: Compressing objects:  94% (121/128)        remote: Compressing objects:  95% (122/128)        remote: Compressing objects:  96% (123/128)        remote: Compressing objects:  97% (125/128)        remote: Compressing objects:  98% (126/128)        remote: Compressing objects:  99% (127/128)        remote: Compressing objects: 100% (128/128)        remote: Compressing objects: 100% (128/128), done.        
+Receiving objects:   0% (1/196)Receiving objects:   1% (2/196)Receiving objects:   2% (4/196)Receiving objects:   3% (6/196)Receiving objects:   4% (8/196)Receiving objects:   5% (10/196)Receiving objects:   6% (12/196)Receiving objects:   7% (14/196)Receiving objects:   8% (16/196)Receiving objects:   9% (18/196)Receiving objects:  10% (20/196)Receiving objects:  11% (22/196)Receiving objects:  12% (24/196)Receiving objects:  13% (26/196)Receiving objects:  14% (28/196)Receiving objects:  15% (30/196)Receiving objects:  16% (32/196)Receiving objects:  17% (34/196)Receiving objects:  18% (36/196)Receiving objects:  19% (38/196)Receiving objects:  20% (40/196)Receiving objects:  21% (42/196)Receiving objects:  22% (44/196)Receiving objects:  23% (46/196)Receiving objects:  24% (48/196)Receiving objects:  25% (49/196)Receiving objects:  26% (51/196)Receiving objects:  27% (53/196)Receiving objects:  28% (55/196)Receiving objects:  29% (57/196)Receiving objects:  30% (59/196)Receiving objects:  31% (61/196)Receiving objects:  32% (63/196)Receiving objects:  33% (65/196)Receiving objects:  34% (67/196)Receiving objects:  35% (69/196)Receiving objects:  36% (71/196)Receiving objects:  37% (73/196)Receiving objects:  38% (75/196)Receiving objects:  39% (77/196)Receiving objects:  40% (79/196)Receiving objects:  41% (81/196)Receiving objects:  42% (83/196)remote: Total 196 (delta 73), reused 179 (delta 62), pack-reused 0        
+Receiving objects:  43% (85/196)Receiving objects:  44% (87/196)Receiving objects:  45% (89/196)Receiving objects:  46% (91/196)Receiving objects:  47% (93/196)Receiving objects:  48% (95/196)Receiving objects:  49% (97/196)Receiving objects:  50% (98/196)Receiving objects:  51% (100/196)Receiving objects:  52% (102/196)Receiving objects:  53% (104/196)Receiving objects:  54% (106/196)Receiving objects:  55% (108/196)Receiving objects:  56% (110/196)Receiving objects:  57% (112/196)Receiving objects:  58% (114/196)Receiving objects:  59% (116/196)Receiving objects:  60% (118/196)Receiving objects:  61% (120/196)Receiving objects:  62% (122/196)Receiving objects:  63% (124/196)Receiving objects:  64% (126/196)Receiving objects:  65% (128/196)Receiving objects:  66% (130/196)Receiving objects:  67% (132/196)Receiving objects:  68% (134/196)Receiving objects:  69% (136/196)Receiving objects:  70% (138/196)Receiving objects:  71% (140/196)Receiving objects:  72% (142/196)Receiving objects:  73% (144/196)Receiving objects:  74% (146/196)Receiving objects:  75% (147/196)Receiving objects:  76% (149/196)Receiving objects:  77% (151/196)Receiving objects:  78% (153/196)Receiving objects:  79% (155/196)Receiving objects:  80% (157/196)Receiving objects:  81% (159/196)Receiving objects:  82% (161/196)Receiving objects:  83% (163/196)Receiving objects:  84% (165/196)Receiving objects:  85% (167/196)Receiving objects:  86% (169/196)Receiving objects:  87% (171/196)Receiving objects:  88% (173/196)Receiving objects:  89% (175/196)Receiving objects:  90% (177/196)Receiving objects:  91% (179/196)Receiving objects:  92% (181/196)Receiving objects:  93% (183/196)Receiving objects:  94% (185/196)Receiving objects:  95% (187/196)Receiving objects:  96% (189/196)Receiving objects:  97% (191/196)Receiving objects:  98% (193/196)Receiving objects:  99% (195/196)Receiving objects: 100% (196/196)Receiving objects: 100% (196/196), 26.00 KiB | 2.17 MiB/s, done.
+Resolving deltas:   0% (0/73)Resolving deltas:   1% (1/73)Resolving deltas:   2% (2/73)Resolving deltas:   4% (3/73)Resolving deltas:   5% (4/73)Resolving deltas:   6% (5/73)Resolving deltas:   8% (6/73)Resolving deltas:   9% (7/73)Resolving deltas:  10% (8/73)Resolving deltas:  12% (9/73)Resolving deltas:  13% (10/73)Resolving deltas:  15% (11/73)Resolving deltas:  16% (12/73)Resolving deltas:  17% (13/73)Resolving deltas:  19% (14/73)Resolving deltas:  20% (15/73)Resolving deltas:  21% (16/73)Resolving deltas:  23% (17/73)Resolving deltas:  24% (18/73)Resolving deltas:  26% (19/73)Resolving deltas:  27% (20/73)Resolving deltas:  28% (21/73)Resolving deltas:  30% (22/73)Resolving deltas:  31% (23/73)Resolving deltas:  32% (24/73)Resolving deltas:  34% (25/73)Resolving deltas:  35% (26/73)Resolving deltas:  36% (27/73)Resolving deltas:  38% (28/73)Resolving deltas:  39% (29/73)Resolving deltas:  41% (30/73)Resolving deltas:  42% (31/73)Resolving deltas:  43% (32/73)Resolving deltas:  45% (33/73)Resolving deltas:  46% (34/73)Resolving deltas:  47% (35/73)Resolving deltas:  49% (36/73)Resolving deltas:  50% (37/73)Resolving deltas:  52% (38/73)Resolving deltas:  53% (39/73)Resolving deltas:  54% (40/73)Resolving deltas:  56% (41/73)Resolving deltas:  57% (42/73)Resolving deltas:  58% (43/73)Resolving deltas:  60% (44/73)Resolving deltas:  61% (45/73)Resolving deltas:  63% (46/73)Resolving deltas:  64% (47/73)Resolving deltas:  65% (48/73)Resolving deltas:  67% (49/73)Resolving deltas:  68% (50/73)Resolving deltas:  69% (51/73)Resolving deltas:  71% (52/73)Resolving deltas:  72% (53/73)Resolving deltas:  73% (54/73)Resolving deltas:  75% (55/73)Resolving deltas:  76% (56/73)Resolving deltas:  78% (57/73)Resolving deltas:  79% (58/73)Resolving deltas:  80% (59/73)Resolving deltas:  82% (60/73)Resolving deltas:  83% (61/73)Resolving deltas:  84% (62/73)Resolving deltas:  86% (63/73)Resolving deltas:  87% (64/73)Resolving deltas:  89% (65/73)Resolving deltas:  90% (66/73)Resolving deltas:  91% (67/73)Resolving deltas:  93% (68/73)Resolving deltas:  94% (69/73)Resolving deltas:  95% (70/73)Resolving deltas:  97% (71/73)Resolving deltas:  98% (72/73)Resolving deltas: 100% (73/73)Resolving deltas: 100% (73/73), done.
+2024-05-10 10:01:49.068 [info] Уровень ведения журнала: Info
+2024-05-10 10:01:49.068 [info] Проверка найденного Git в: "git"
+2024-05-10 10:01:49.069 [info] Используется Git "2.42.0" из "git"
+2024-05-10 10:01:49.069 [info] > git rev-parse --show-toplevel [23ms]
+2024-05-10 10:01:49.069 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2024-05-10 10:01:49.069 [info] Open repository: /home/onetap/Documents/MyPythonProjects
+2024-05-10 10:01:49.069 [info] > git config --get commit.template [63ms]
+2024-05-10 10:01:49.069 [info] > git rev-parse --show-toplevel [72ms]
+2024-05-10 10:01:49.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2024-05-10 10:01:49.069 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/MyPythonProjects/.git/refs/remotes/origin/main'
+2024-05-10 10:01:49.069 [info] > git rev-parse --show-toplevel [36ms]
+2024-05-10 10:01:49.069 [info] > git rev-parse refs/remotes/origin/main [38ms]
+2024-05-10 10:01:49.089 [info] > git status -z -uall [42ms]
+2024-05-10 10:01:49.235 [info] > git config --get commit.template [44ms]
+2024-05-10 10:01:49.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-05-10 10:01:49.372 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/MyPythonProjects/.git/refs/remotes/origin/main'
+2024-05-10 10:01:49.395 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2024-05-10 10:01:49.454 [info] > git status -z -uall [14ms]
+2024-05-10 10:01:50.132 [info] > git check-ignore -v -z --stdin [11ms]
+2024-05-10 10:02:28.368 [info] > git check-ignore -v -z --stdin [18ms]
+2024-05-10 10:02:31.246 [info] > git config --get commit.template [1840ms]
+2024-05-10 10:02:31.475 [info] > git show --textconv :Что-то моё/Heaven.py [201ms]
+2024-05-10 10:02:31.476 [info] > git ls-files --stage -- /home/onetap/Documents/MyPythonProjects/Что-то моё/Heaven.py [174ms]
+2024-05-10 10:02:31.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-05-10 10:02:31.672 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/MyPythonProjects/.git/refs/remotes/origin/main'
+2024-05-10 10:02:31.708 [info] > git rev-parse refs/remotes/origin/main [36ms]
+2024-05-10 10:02:31.806 [info] > git status -z -uall [30ms]
+2024-05-10 10:02:36.666 [info] > git ls-files --stage -- /home/onetap/Documents/MyPythonProjects/Что-то моё/Heaven.py [12ms]
+2024-05-10 10:02:36.710 [info] > git show --textconv :Что-то моё/Heaven.py [8ms]
+2024-05-10 10:02:36.936 [info] > git config --get commit.template [38ms]
+2024-05-10 10:02:36.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-05-10 10:02:36.966 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/MyPythonProjects/.git/refs/remotes/origin/main'
+2024-05-10 10:02:36.973 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-05-10 10:02:37.018 [info] > git status -z -uall [11ms]

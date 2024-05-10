@@ -1,0 +1,19 @@
+2024-05-10 11:18:16.642 [info] Уровень ведения журнала: Info
+2024-05-10 11:18:16.642 [info] Проверка найденного Git в: "git"
+2024-05-10 11:18:16.642 [info] Используется Git "2.42.0" из "git"
+2024-05-10 11:18:16.642 [info] > git rev-parse --show-toplevel [112ms]
+2024-05-10 11:18:16.642 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-05-10 11:18:16.642 [info] Open repository: /home/onetap/Documents/MyPythonProjects
+2024-05-10 11:18:16.895 [info] > git rev-parse --show-toplevel [105ms]
+2024-05-10 11:18:16.900 [info] > git config --get commit.template [148ms]
+2024-05-10 11:18:17.117 [info] > git rev-parse --show-toplevel [84ms]
+2024-05-10 11:18:17.201 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-10 11:18:17.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [94ms]
+2024-05-10 11:18:17.401 [info] > git status -z -uall [97ms]
+2024-05-10 11:18:17.572 [info] > git check-ignore -v -z --stdin [184ms]
+2024-05-10 11:18:17.596 [info] > git config --get commit.template [22ms]
+2024-05-10 11:18:17.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-05-10 11:18:17.754 [info] > git status -z -uall [26ms]
+2024-05-10 11:18:24.645 [info] > git show --textconv :Что-то моё/Heaven.py [132ms]
+2024-05-10 11:18:24.768 [info] > git ls-files --stage -- /home/onetap/Documents/MyPythonProjects/Что-то моё/Heaven.py [125ms]
+2024-05-10 11:18:24.863 [info] > git cat-file -s 5703f09cd468f64a425fe2b698ff8979f0981833 [29ms]

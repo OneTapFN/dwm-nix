@@ -50,7 +50,7 @@
   users.users.onetap = {
     isNormalUser = true;
     description = "OneTap_FN";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "audio" ];
     packages = with pkgs; [];
   };
 
@@ -64,12 +64,17 @@
   dwm
   st
   firefox
-  neofetch
+  fastfetch
   wget
   unzip
   rofi
   cmus
   parsec-bin
+  python3
+  scrcpy
+  gnome.gnome-disk-utility
+  vscode
+  scrot
   pfetch
   fish
   usbutils
@@ -103,5 +108,6 @@ nixpkgs.overlays = [
   programs.fish.enable = true;
   users.defaultUserShell = pkgs.fish;
   system.stateVersion = "23.11";
-
+  hardware.pulseaudio.enable = true;
+  hardware.pulseaudio.support32Bit = true;
 }

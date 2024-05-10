@@ -1,0 +1,34 @@
+2024-05-10 10:02:32.057 [info] Эксперимент «pythonRecommendTensorboardExt» активен
+2024-05-10 10:02:32.057 [info] Эксперимент «pythonREPLSmartSend» активен
+2024-05-10 10:02:32.057 [info] Эксперимент «pythonTerminalEnvVarActivation» активен
+2024-05-10 10:02:32.057 [info] Эксперимент «pythonTestAdapter» активен
+2024-05-10 10:02:32.520 [info] Default formatter is set to null for workspace /home/onetap/Documents/MyPythonProjects
+2024-05-10 10:02:32.654 [info] Test server listening.
+2024-05-10 10:02:32.692 [info] > conda info --json
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.172 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.174 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-05-10 10:02:35.174 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-05-10 10:02:35.174 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-05-10 10:02:35.177 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-05-10 10:02:35.226 [info] > python -c "import sys;print(sys.executable)"
+2024-05-10 10:02:35.378 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: line 1: python: command not found
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-05-10 10:02:36.162 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-05-10 10:02:38.701 [info] Запуск языкового сервера Pylance.

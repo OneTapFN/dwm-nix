@@ -1,0 +1,151 @@
+2024-05-10 09:50:17.059 [info] Log level: Info
+2024-05-10 09:50:17.059 [info] Validating found git in: "git"
+2024-05-10 09:50:17.059 [info] Using git "2.42.0" from "git"
+2024-05-10 09:54:00.952 [info] > git clone https://github.com/OneTapFN/dwm-nix.git /home/onetap/Documents/dwm-nix --progress [3452ms]
+2024-05-10 09:54:01.030 [info] Cloning into '/home/onetap/Documents/dwm-nix'...
+remote: Enumerating objects: 13, done.        
+remote: Counting objects:   7% (1/13)        remote: Counting objects:  15% (2/13)        remote: Counting objects:  23% (3/13)        remote: Counting objects:  30% (4/13)        remote: Counting objects:  38% (5/13)        remote: Counting objects:  46% (6/13)        remote: Counting objects:  53% (7/13)        remote: Counting objects:  61% (8/13)        remote: Counting objects:  69% (9/13)        remote: Counting objects:  76% (10/13)        remote: Counting objects:  84% (11/13)        remote: Counting objects:  92% (12/13)        remote: Counting objects: 100% (13/13)        remote: Counting objects: 100% (13/13), done.        
+remote: Compressing objects:   7% (1/13)        remote: Compressing objects:  15% (2/13)        remote: Compressing objects:  23% (3/13)        remote: Compressing objects:  30% (4/13)        remote: Compressing objects:  38% (5/13)        remote: Compressing objects:  46% (6/13)        remote: Compressing objects:  53% (7/13)        remote: Compressing objects:  61% (8/13)        remote: Compressing objects:  69% (9/13)        remote: Compressing objects:  76% (10/13)        remote: Compressing objects:  84% (11/13)        remote: Compressing objects:  92% (12/13)        remote: Compressing objects: 100% (13/13)        remote: Compressing objects: 100% (13/13), done.        
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 0        
+Receiving objects:   7% (1/13)Receiving objects:  15% (2/13)Receiving objects:  23% (3/13)Receiving objects:  30% (4/13)Receiving objects:  38% (5/13)Receiving objects:  46% (6/13)Receiving objects:  53% (7/13)Receiving objects:  61% (8/13)Receiving objects:  69% (9/13)Receiving objects:  76% (10/13)Receiving objects:  84% (11/13)Receiving objects:  92% (12/13)Receiving objects: 100% (13/13)Receiving objects: 100% (13/13), 4.90 KiB | 111.00 KiB/s, done.
+2024-05-10 09:54:27.029 [info] Log level: Info
+2024-05-10 09:54:27.029 [info] Validating found git in: "git"
+2024-05-10 09:54:27.029 [info] Using git "2.42.0" from "git"
+2024-05-10 09:54:27.029 [info] > git rev-parse --show-toplevel [41ms]
+2024-05-10 09:54:27.097 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2024-05-10 09:54:27.200 [info] Open repository: /home/onetap/Documents/dwm-nix
+2024-05-10 09:54:27.326 [info] > git config --get commit.template [66ms]
+2024-05-10 09:54:27.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2024-05-10 09:54:27.389 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:54:27.394 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-05-10 09:54:27.551 [info] > git status -z -uall [127ms]
+2024-05-10 09:54:27.721 [info] > git config --get commit.template [8ms]
+2024-05-10 09:54:27.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2024-05-10 09:54:27.858 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:54:27.878 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2024-05-10 09:54:27.911 [info] > git status -z -uall [13ms]
+2024-05-10 09:54:27.967 [info] > git show --textconv :configuration.nix [25ms]
+2024-05-10 09:54:28.169 [info] > git check-ignore -v -z --stdin [38ms]
+2024-05-10 09:54:28.175 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [209ms]
+2024-05-10 09:54:28.201 [info] > git cat-file -s a167e25d7ba57c97695eefff165f3b003fe8c4c2 [10ms]
+2024-05-10 09:54:40.415 [info] > git show --textconv :xprofile [27ms]
+2024-05-10 09:54:40.424 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/xprofile [10ms]
+2024-05-10 09:54:40.453 [info] > git cat-file -s f3c8a07e6ae31ff01e339e049dac6d1dbddbd5ba [12ms]
+2024-05-10 09:55:05.953 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-10 09:55:05.953 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-10 09:55:11.464 [info] > git show --textconv :xprofile [27ms]
+2024-05-10 09:55:11.465 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/xprofile [6ms]
+2024-05-10 09:55:11.489 [info] > git cat-file -s f3c8a07e6ae31ff01e339e049dac6d1dbddbd5ba [8ms]
+2024-05-10 09:55:19.541 [info] > git rev-parse --show-toplevel [32ms]
+2024-05-10 09:55:19.541 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-10 09:55:20.821 [info] > git show --textconv :xprofile [25ms]
+2024-05-10 09:55:20.830 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/xprofile [11ms]
+2024-05-10 09:55:20.850 [info] > git cat-file -s f3c8a07e6ae31ff01e339e049dac6d1dbddbd5ba [7ms]
+2024-05-10 09:55:24.210 [info] > git config --get commit.template [22ms]
+2024-05-10 09:55:24.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-10 09:55:24.228 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:55:24.236 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-05-10 09:55:24.260 [info] > git status -z -uall [7ms]
+2024-05-10 09:55:24.466 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-10 09:55:24.466 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-10 09:55:25.325 [info] > git show --textconv :xprofile [27ms]
+2024-05-10 09:55:25.343 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/xprofile [21ms]
+2024-05-10 09:55:25.388 [info] > git cat-file -s f3c8a07e6ae31ff01e339e049dac6d1dbddbd5ba [21ms]
+2024-05-10 09:55:57.327 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-10 09:55:57.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-10 09:56:00.569 [info] > git show --textconv :xprofile [19ms]
+2024-05-10 09:56:00.576 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/xprofile [7ms]
+2024-05-10 09:56:00.592 [info] > git cat-file -s f3c8a07e6ae31ff01e339e049dac6d1dbddbd5ba [4ms]
+2024-05-10 09:56:02.872 [info] > git show --textconv :configuration.nix [53ms]
+2024-05-10 09:56:02.885 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [15ms]
+2024-05-10 09:56:02.912 [info] > git cat-file -s a167e25d7ba57c97695eefff165f3b003fe8c4c2 [11ms]
+2024-05-10 09:56:08.173 [info] > git config --get commit.template [17ms]
+2024-05-10 09:56:08.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-05-10 09:56:08.188 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:56:08.192 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-05-10 09:56:08.212 [info] > git status -z -uall [5ms]
+2024-05-10 09:56:12.701 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-10 09:56:12.701 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-10 09:56:13.252 [info] > git config --get commit.template [5ms]
+2024-05-10 09:56:13.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-05-10 09:56:13.305 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:56:13.315 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-05-10 09:56:13.339 [info] > git status -z -uall [3ms]
+2024-05-10 09:56:14.544 [info] > git show --textconv :configuration.nix [35ms]
+2024-05-10 09:56:14.576 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [35ms]
+2024-05-10 09:56:14.611 [info] > git cat-file -s a167e25d7ba57c97695eefff165f3b003fe8c4c2 [4ms]
+2024-05-10 09:56:25.772 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-10 09:56:36.846 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-10 09:56:39.774 [info] > git config --get commit.template [11ms]
+2024-05-10 09:56:39.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-05-10 09:56:39.837 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:56:39.844 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-05-10 09:56:39.870 [info] > git status -z -uall [9ms]
+2024-05-10 09:56:44.922 [info] > git config --get commit.template [16ms]
+2024-05-10 09:56:44.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-05-10 09:56:44.938 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:56:44.941 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-05-10 09:56:44.958 [info] > git status -z -uall [5ms]
+2024-05-10 09:56:48.820 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-10 09:56:50.322 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2024-05-10 09:56:50.359 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [11ms]
+2024-05-10 09:56:57.533 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-10 09:56:57.982 [info] > git show --textconv :st-flexipatch/patch/alpha.h [22ms]
+2024-05-10 09:56:58.005 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/st-flexipatch/patch/alpha.h [25ms]
+2024-05-10 09:57:08.045 [info] > git show --textconv :configuration.nix [68ms]
+2024-05-10 09:57:08.060 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [19ms]
+2024-05-10 09:57:08.118 [info] > git cat-file -s a167e25d7ba57c97695eefff165f3b003fe8c4c2 [13ms]
+2024-05-10 09:57:32.705 [info] > git show --textconv :configuration.nix [31ms]
+2024-05-10 09:57:32.717 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [23ms]
+2024-05-10 09:57:32.739 [info] > git cat-file -s a167e25d7ba57c97695eefff165f3b003fe8c4c2 [7ms]
+2024-05-10 09:57:39.428 [info] > git config --get commit.template [21ms]
+2024-05-10 09:57:39.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-10 09:57:39.451 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:57:39.454 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-05-10 09:57:39.477 [info] > git status -z -uall [5ms]
+2024-05-10 09:57:49.640 [info] > git add -A -- . [29ms]
+2024-05-10 09:57:49.640 [info] warning: adding embedded git repository: dwm-flexipatch
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> dwm-flexipatch
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached dwm-flexipatch
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: st-flexipatch
+2024-05-10 09:57:49.686 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [18ms]
+2024-05-10 09:57:49.686 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-10 09:57:49.712 [info] > git config --get-all user.name [7ms]
+2024-05-10 09:57:49.788 [info] > git config --get commit.template [44ms]
+2024-05-10 09:57:49.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2024-05-10 09:57:49.874 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:57:49.901 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2024-05-10 09:57:50.074 [info] > git status -z -uall [106ms]
+2024-05-10 09:57:53.106 [info] > git ls-files --stage -- /home/onetap/Documents/dwm-nix/configuration.nix [14ms]
+2024-05-10 09:57:53.135 [info] > git cat-file -s 6baff57e0698b461836aa7b775ffd404fb986706 [9ms]
+2024-05-10 09:57:53.169 [info] > git show --textconv :configuration.nix [5ms]
+2024-05-10 09:58:01.461 [info] > git push origin main:main [2418ms]
+2024-05-10 09:58:01.461 [info] Everything up-to-date
+2024-05-10 09:58:01.511 [info] > git config --get commit.template [25ms]
+2024-05-10 09:58:01.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-10 09:58:01.537 [warning] ENOENT: no such file or directory, open '/home/onetap/Documents/dwm-nix/.git/refs/remotes/origin/main'
+2024-05-10 09:58:01.540 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-05-10 09:58:01.602 [info] > git status -z -uall [43ms]

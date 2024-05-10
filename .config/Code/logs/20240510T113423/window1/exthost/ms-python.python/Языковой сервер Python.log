@@ -1,0 +1,27 @@
+2024-05-10 11:34:59.331 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-05-10 11:35:04.698 [info] [Info  - 11:35:04 AM] (1664) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-05-10 11:35:04.716 [info] [Info  - 11:35:04 AM] (1664) Server root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 11:35:04.730 [info] [Info  - 11:35:04 AM] (1664) Starting service instance "MyPythonProjects"
+2024-05-10 11:35:04.998 [info] [Info  - 11:35:04 AM] (1664) Setting pythonPath for service "MyPythonProjects": "/run/current-system/sw/bin/python"
+2024-05-10 11:35:04.999 [info] [Info  - 11:35:04 AM] (1664) Setting environmentName for service "MyPythonProjects": "3.11.8 (глобальная)"
+2024-05-10 11:35:05.338 [info] [Info  - 11:35:05 AM] (1664) Assuming Python version 3.11
+2024-05-10 11:35:06.190 [info] [Info  - 11:35:06 AM] (1664) Found 26 source files
+2024-05-10 11:35:08.197 [info] [Info  - 11:35:08 AM] (1664) Background analysis(1) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 11:35:08.206 [info] [Info  - 11:35:08 AM] (1664) Background analysis(1) started
+2024-05-10 11:35:09.829 [info] [Info  - 11:35:09 AM] (1664) Indexer background runner(2) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 11:35:09.830 [info] [Info  - 11:35:09 AM] (1664) Indexing(2) started
+2024-05-10 11:35:11.738 [info] [Info  - 11:35:11 AM] (1664) [BG(1)] Long operation: analyzing: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (2796ms)
+2024-05-10 11:35:13.675 [info] [Info  - 11:35:13 AM] (1664) [IDX(2)] Long operation: scan packages file:///home/onetap/Documents/MyPythonProjects (3802ms)
+2024-05-10 11:35:13.675 [info] [Info  - 11:35:13 AM] (1664) scanned(2) 13 files over 1 exec env
+2024-05-10 11:35:16.280 [info] [Info  - 11:35:16 AM] (1664) indexed(2) 2 files over 1 exec env
+2024-05-10 11:35:16.501 [info] [Info  - 11:35:16 AM] (1664) Indexing finished(2).
+2024-05-10 11:55:58.082 [info] [Info  - 11:55:58 AM] (1664) Setting pythonPath for service "MyPythonProjects": "/run/current-system/sw/bin/python"
+2024-05-10 11:55:58.084 [info] [Info  - 11:55:58 AM] (1664) Setting environmentName for service "MyPythonProjects": "3.11.8 (глобальная)"
+2024-05-10 11:55:58.417 [info] [Info  - 11:55:58 AM] (1664) Assuming Python version 3.11
+2024-05-10 11:55:58.832 [info] [Info  - 11:55:58 AM] (1664) Found 26 source files
+2024-05-10 11:56:01.813 [info] [Info  - 11:56:01 AM] (1664) [BG(1)] Long operation: analyzing: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Egor%27s%20russian%20roulllete.py (2274ms)
+2024-05-10 11:56:02.804 [info] [Info  - 11:56:02 AM] (1664) Indexer background runner(3) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 11:56:02.805 [info] [Info  - 11:56:02 AM] (1664) Indexing(3) started
+2024-05-10 11:56:04.679 [info] [Info  - 11:56:04 AM] (1664) scanned(3) 13 files over 1 exec env
+2024-05-10 11:56:08.549 [info] [Info  - 11:56:08 AM] (1664) indexed(3) 2 files over 1 exec env
+2024-05-10 11:56:08.843 [info] [Info  - 11:56:08 AM] (1664) Indexing finished(3).

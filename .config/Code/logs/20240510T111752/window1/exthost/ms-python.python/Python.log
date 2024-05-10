@@ -1,0 +1,9 @@
+2024-05-10 11:18:07.945 [info] Эксперимент «pythonRecommendTensorboardExt» активен
+2024-05-10 11:18:07.945 [info] Эксперимент «pythonREPLSmartSend» активен
+2024-05-10 11:18:07.945 [info] Эксперимент «pythonTerminalEnvVarActivation» активен
+2024-05-10 11:18:07.945 [info] Эксперимент «pythonTestAdapter» активен
+2024-05-10 11:18:08.135 [info] Default formatter is set to null for workspace /home/onetap/Documents/MyPythonProjects
+2024-05-10 11:18:08.218 [info] Test server listening.
+2024-05-10 11:18:08.220 [info] Путь к интерпретатору Python: /run/current-system/sw/bin/python
+2024-05-10 11:18:13.402 [info] Shell integration status changed, can confirm it's working.
+2024-05-10 11:18:21.666 [info] Запуск языкового сервера Pylance.

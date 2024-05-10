@@ -1,0 +1,245 @@
+2024-05-10 09:58:50.351 [info] Extension host with pid 8340 started
+2024-05-10 09:58:50.351 [info] Skipping acquiring lock for /home/onetap/.config/Code/User/workspaceStorage/63990f94be5c11c1895fb33af21ff1a2.
+2024-05-10 09:58:52.755 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-10 09:58:52.784 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-10 09:58:55.513 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-10 09:58:55.520 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-10 09:58:57.133 [info] Eager extensions activated
+2024-05-10 09:58:59.414 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 09:58:59.427 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 09:59:00.033 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-05-10 10:00:52.904 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-10 10:00:53.041 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:924696)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:00:53.042 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:924696)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:00:53.042 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:924696)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:00:53.044 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/github/dist/extension.js:2:323005
+	at f.value (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:1016450)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:00:53.045 [info] Extension host with pid 8340 exiting with code 0
+2024-05-10 10:01:00.852 [info] Extension host with pid 8857 started
+2024-05-10 10:01:02.014 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-10 10:01:07.193 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-10 10:01:07.213 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-10 10:01:08.744 [info] Eager extensions activated
+2024-05-10 10:01:10.026 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 10:01:10.029 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 10:01:17.695 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-05-10 10:01:37.266 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-10 10:01:37.431 [info] Extension host with pid 8857 exiting with code 0
+2024-05-10 10:01:43.261 [info] Extension host with pid 9005 started
+2024-05-10 10:01:43.261 [info] Skipping acquiring lock for /home/onetap/.config/Code/User/workspaceStorage/12cbaa4b29f6bbf601909de9a56a5485.
+2024-05-10 10:01:44.112 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-10 10:01:46.159 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-10 10:01:46.163 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-10 10:01:48.341 [info] Eager extensions activated
+2024-05-10 10:01:49.376 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 10:01:49.386 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-10 10:01:49.618 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-05-10 10:02:27.921 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-05-10 10:02:27.924 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-05-10 10:02:27.929 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-10 10:02:32.881 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-05-10 10:02:48.248 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-10 10:02:48.599 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:924696)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:02:48.600 [error] Canceled: Canceled
+	at new g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/github/dist/extension.js:2:323005
+	at f.value (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:1016450)
+	at n.y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:940613)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-05-10 10:02:48.651 [info] Extension host with pid 9005 exiting with code 0

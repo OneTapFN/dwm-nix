@@ -1,0 +1,1 @@
+~/.config/autostart/bar.sh

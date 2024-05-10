@@ -1,0 +1,18 @@
+2024-05-10 11:18:15.730 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-05-10 11:18:21.369 [info] [Info  - 11:18:21 AM] (16224) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-05-10 11:18:21.380 [info] [Info  - 11:18:21 AM] (16224) Server root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 11:18:21.389 [info] [Info  - 11:18:21 AM] (16224) Starting service instance "MyPythonProjects"
+2024-05-10 11:18:22.008 [info] [Info  - 11:18:22 AM] (16224) Setting pythonPath for service "MyPythonProjects": "/run/current-system/sw/bin/python"
+2024-05-10 11:18:22.014 [info] [Info  - 11:18:22 AM] (16224) Setting environmentName for service "MyPythonProjects": "3.11.8 (глобальная)"
+2024-05-10 11:18:22.434 [info] [Info  - 11:18:22 AM] (16224) Assuming Python version 3.11
+2024-05-10 11:18:23.446 [info] [Info  - 11:18:23 AM] (16224) Found 26 source files
+2024-05-10 11:18:27.986 [info] [Info  - 11:18:27 AM] (16224) Background analysis(1) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 11:18:28.016 [info] [Info  - 11:18:28 AM] (16224) Background analysis(1) started
+2024-05-10 11:18:29.853 [info] [Info  - 11:18:29 AM] (16224) Indexer background runner(2) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 11:18:29.855 [info] [Info  - 11:18:29 AM] (16224) Indexing(2) started
+2024-05-10 11:18:34.303 [info] [Info  - 11:18:34 AM] (16224) [BG(1)] Long operation: checking: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (2496ms)
+2024-05-10 11:18:34.307 [info] [Info  - 11:18:34 AM] (16224) [BG(1)] Long operation: analyzing: file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (5038ms)
+2024-05-10 11:18:35.674 [info] [Info  - 11:18:35 AM] (16224) [IDX(2)] Long operation: scan packages file:///home/onetap/Documents/MyPythonProjects (5730ms)
+2024-05-10 11:18:35.674 [info] [Info  - 11:18:35 AM] (16224) scanned(2) 13 files over 1 exec env
+2024-05-10 11:18:37.872 [info] [Info  - 11:18:37 AM] (16224) indexed(2) 2 files over 1 exec env
+2024-05-10 11:18:38.202 [info] [Info  - 11:18:38 AM] (16224) Indexing finished(2).

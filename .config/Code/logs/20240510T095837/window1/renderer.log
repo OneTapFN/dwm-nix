@@ -1,0 +1,15 @@
+2024-05-10 09:58:41.117 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-05-10 09:58:43.660 [info] Started local extension host with pid 8340.
+2024-05-10 09:59:08.611 [info] [perf] Render performance baseline is -1ms
+2024-05-10 10:00:55.256 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-05-10 10:00:56.592 [info] Started local extension host with pid 8857.
+2024-05-10 10:01:15.413 [info] [perf] Render performance baseline is 862ms
+2024-05-10 10:01:32.435 [error] [Extension Host] (node:8857) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-05-10 10:01:39.012 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-05-10 10:01:40.644 [info] Started local extension host with pid 9005.
+2024-05-10 10:01:55.655 [info] [perf] Render performance baseline is 925ms
+2024-05-10 10:02:44.942 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at q.getLineContent (vscode-file://vscode-app/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:730:4396)
+    at o.update (vscode-file://vscode-app/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:681:81713)
+    at P.w (vscode-file://vscode-app/nix/store/rlrxnml43nz39yvdx6ddqy2p4i8z9mpn-vscode-1.85.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:744:53935)

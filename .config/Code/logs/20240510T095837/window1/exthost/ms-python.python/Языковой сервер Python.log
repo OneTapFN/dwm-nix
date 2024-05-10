@@ -1,0 +1,13 @@
+2024-05-10 10:02:36.260 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-05-10 10:02:38.497 [info] [Info  - 10:02:38 AM] (9171) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-05-10 10:02:38.505 [info] [Info  - 10:02:38 AM] (9171) Server root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 10:02:38.506 [info] [Info  - 10:02:38 AM] (9171) Starting service instance "MyPythonProjects"
+2024-05-10 10:02:39.088 [info] [Info  - 10:02:39 AM] (9171) Setting environmentName for service "MyPythonProjects": "python"
+2024-05-10 10:02:39.861 [info] [Info  - 10:02:39 AM] (9171) Found 26 source files
+2024-05-10 10:02:41.968 [info] [Info  - 10:02:41 AM] (9171) Background analysis(1) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-05-10 10:02:41.982 [info] [Info  - 10:02:41 AM] (9171) Background analysis(1) started
+2024-05-10 10:02:42.961 [info] [Info  - 10:02:42 AM] (9171) Indexer background runner(2) root directory: file:///home/onetap/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-05-10 10:02:42.963 [info] [Info  - 10:02:42 AM] (9171) Indexing(2) started
+2024-05-10 10:02:44.514 [info] [Info  - 10:02:44 AM] (9171) [BG(1)] Long operation: SemanticTokens range 0:0 - 0:3 at file:///home/onetap/Documents/MyPythonProjects/%D0%A7%D1%82%D0%BE-%D1%82%D0%BE%20%D0%BC%D0%BE%D1%91/Heaven.py (2086ms)
+2024-05-10 10:02:46.363 [info] [Info  - 10:02:46 AM] (9171) [IDX(2)] Long operation: scan packages file:///home/onetap/Documents/MyPythonProjects (3365ms)
+2024-05-10 10:02:46.364 [info] [Info  - 10:02:46 AM] (9171) scanned(2) 1 files over 1 exec env
